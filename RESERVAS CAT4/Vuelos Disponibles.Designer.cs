@@ -40,36 +40,36 @@
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.label35 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
@@ -214,6 +214,90 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "groupBox4";
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(38, 247);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 9;
+            this.button4.Text = "Seleccionar";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(9, 202);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(60, 13);
+            this.label27.TabIndex = 6;
+            this.label27.Text = "Reembolso";
+            this.label27.Click += new System.EventHandler(this.label27_Click);
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(9, 178);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(129, 13);
+            this.label34.TabIndex = 8;
+            this.label34.Text = "Cambios (Antes del vuelo)";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(9, 151);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(68, 13);
+            this.label33.TabIndex = 7;
+            this.label33.Text = "Asiento Plus ";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(9, 123);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(118, 13);
+            this.label32.TabIndex = 7;
+            this.label32.Text = "Check-in en aeropuerto";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(9, 96);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(146, 13);
+            this.label31.TabIndex = 7;
+            this.label31.Text = "1 equipaje de bodega (23 kg)";
+            this.label31.Click += new System.EventHandler(this.label31_Click);
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(9, 70);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(133, 13);
+            this.label30.TabIndex = 7;
+            this.label30.Text = "1 equipaje de mano (10kg)";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(9, 44);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(128, 13);
+            this.label28.TabIndex = 7;
+            this.label28.Text = "1 articulo personal (Bolso)";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.ForeColor = System.Drawing.Color.Red;
+            this.label29.Location = new System.Drawing.Point(6, 20);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(80, 13);
+            this.label29.TabIndex = 7;
+            this.label29.Text = "COP 1.592.685";
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.button3);
@@ -229,6 +313,70 @@
             this.groupBox3.TabIndex = 12;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "groupBox3";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(38, 247);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "Seleccionar";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(9, 151);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(131, 13);
+            this.label26.TabIndex = 5;
+            this.label26.Text = "Asiento Ecnomico incluido";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(6, 123);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(118, 13);
+            this.label25.TabIndex = 4;
+            this.label25.Text = "Check-in en aeropuerto";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(6, 96);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(146, 13);
+            this.label24.TabIndex = 3;
+            this.label24.Text = "1 equipaje de bodega (23 kg)";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(6, 70);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(133, 13);
+            this.label23.TabIndex = 2;
+            this.label23.Text = "1 equipaje de mano (10kg)";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(6, 44);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(128, 13);
+            this.label22.TabIndex = 1;
+            this.label22.Text = "1 articulo personal (Bolso)";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.ForeColor = System.Drawing.Color.Red;
+            this.label21.Location = new System.Drawing.Point(6, 20);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(80, 13);
+            this.label21.TabIndex = 0;
+            this.label21.Text = "COP 1.532.765";
             // 
             // groupBox2
             // 
@@ -250,6 +398,79 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Basico";
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(33, 247);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "Seleccionar";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(7, 225);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(60, 13);
+            this.label20.TabIndex = 9;
+            this.label20.Text = "Reembolso";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(7, 202);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(87, 13);
+            this.label19.TabIndex = 8;
+            this.label19.Text = "Acumula lifemiles";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(6, 179);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(127, 13);
+            this.label18.TabIndex = 7;
+            this.label18.Text = "Cambios (Antes de vuelo)";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(3, 152);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(111, 13);
+            this.label17.TabIndex = 6;
+            this.label17.Text = "Seleccion de asientos";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(6, 123);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(118, 13);
+            this.label16.TabIndex = 5;
+            this.label16.Text = "Check-in en aeropuerto";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(6, 96);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(102, 13);
+            this.label15.TabIndex = 4;
+            this.label15.Text = "Equipaje de bodega";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(6, 69);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(92, 13);
+            this.label14.TabIndex = 3;
+            this.label14.Text = "Equipaje de mano";
+            // 
             // label13
             // 
             this.label13.AutoSize = true;
@@ -268,15 +489,6 @@
             this.label12.TabIndex = 1;
             this.label12.Text = "1 articulo personal (Bolso)";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(496, 36);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(30, 23);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "v";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // label11
             // 
             this.label11.AutoSize = true;
@@ -287,225 +499,14 @@
             this.label11.TabIndex = 0;
             this.label11.Text = "COP 1.432.940";
             // 
-            // label14
+            // button1
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(6, 69);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(92, 13);
-            this.label14.TabIndex = 3;
-            this.label14.Text = "Equipaje de mano";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(6, 96);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(102, 13);
-            this.label15.TabIndex = 4;
-            this.label15.Text = "Equipaje de bodega";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(6, 123);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(118, 13);
-            this.label16.TabIndex = 5;
-            this.label16.Text = "Check-in en aeropuerto";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(3, 152);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(111, 13);
-            this.label17.TabIndex = 6;
-            this.label17.Text = "Seleccion de asientos";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(6, 179);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(127, 13);
-            this.label18.TabIndex = 7;
-            this.label18.Text = "Cambios (Antes de vuelo)";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(7, 202);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(87, 13);
-            this.label19.TabIndex = 8;
-            this.label19.Text = "Acumula lifemiles";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(7, 225);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(60, 13);
-            this.label20.TabIndex = 9;
-            this.label20.Text = "Reembolso";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.ForeColor = System.Drawing.Color.Red;
-            this.label21.Location = new System.Drawing.Point(6, 20);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(80, 13);
-            this.label21.TabIndex = 0;
-            this.label21.Text = "COP 1.532.765";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(6, 44);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(128, 13);
-            this.label22.TabIndex = 1;
-            this.label22.Text = "1 articulo personal (Bolso)";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(6, 70);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(133, 13);
-            this.label23.TabIndex = 2;
-            this.label23.Text = "1 equipaje de mano (10kg)";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(6, 96);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(146, 13);
-            this.label24.TabIndex = 3;
-            this.label24.Text = "1 equipaje de bodega (23 kg)";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(6, 123);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(118, 13);
-            this.label25.TabIndex = 4;
-            this.label25.Text = "Check-in en aeropuerto";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(9, 151);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(131, 13);
-            this.label26.TabIndex = 5;
-            this.label26.Text = "Asiento Ecnomico incluido";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(9, 202);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(60, 13);
-            this.label27.TabIndex = 6;
-            this.label27.Text = "Reembolso";
-            this.label27.Click += new System.EventHandler(this.label27_Click);
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.ForeColor = System.Drawing.Color.Red;
-            this.label29.Location = new System.Drawing.Point(6, 20);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(80, 13);
-            this.label29.TabIndex = 7;
-            this.label29.Text = "COP 1.592.685";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(9, 44);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(128, 13);
-            this.label28.TabIndex = 7;
-            this.label28.Text = "1 articulo personal (Bolso)";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(9, 70);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(133, 13);
-            this.label30.TabIndex = 7;
-            this.label30.Text = "1 equipaje de mano (10kg)";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(9, 96);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(146, 13);
-            this.label31.TabIndex = 7;
-            this.label31.Text = "1 equipaje de bodega (23 kg)";
-            this.label31.Click += new System.EventHandler(this.label31_Click);
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(9, 123);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(118, 13);
-            this.label32.TabIndex = 7;
-            this.label32.Text = "Check-in en aeropuerto";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(9, 151);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(68, 13);
-            this.label33.TabIndex = 7;
-            this.label33.Text = "Asiento Plus ";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(9, 178);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(129, 13);
-            this.label34.TabIndex = 8;
-            this.label34.Text = "Cambios (Antes del vuelo)";
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(33, 247);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Seleccionar";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(38, 247);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Seleccionar";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(38, 247);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "Seleccionar";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button1.Location = new System.Drawing.Point(496, 36);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(30, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "v";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // label35
             // 

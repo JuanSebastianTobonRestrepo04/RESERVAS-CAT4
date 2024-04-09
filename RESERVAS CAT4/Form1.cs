@@ -34,9 +34,9 @@ namespace RESERVAS_CAT4
             {
 
             }
-         
-            Form Disponibilidad = new VuelosDisponibles();
-            Disponibilidad.Show();
+            Form InicioSesionRegistrarseForm = new InicioSesionRegistrarse();
+            InicioSesionRegistrarseForm.Show();
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

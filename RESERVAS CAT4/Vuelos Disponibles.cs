@@ -41,5 +41,11 @@ namespace RESERVAS_CAT4
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form Vueloapago = new compratipovuelo();
+            Vueloapago.Show();
+        }
     }
 }
