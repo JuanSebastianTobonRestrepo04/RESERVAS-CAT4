@@ -21,12 +21,14 @@ namespace RESERVAS_CAT4
         {
             Form IniciosesionForm = new IniciarSesion();
             IniciosesionForm.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Form Registrarseform = new Registrarse();
-            Registrarseform.Show();   
+            Registrarseform.Show();
+            this.Hide();
         }
     }
 }

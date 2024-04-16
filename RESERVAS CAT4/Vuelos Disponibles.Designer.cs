@@ -212,7 +212,7 @@
             this.groupBox4.Size = new System.Drawing.Size(155, 270);
             this.groupBox4.TabIndex = 13;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "groupBox4";
+            this.groupBox4.Text = "Presidencial";
             // 
             // button4
             // 
@@ -312,7 +312,7 @@
             this.groupBox3.Size = new System.Drawing.Size(157, 270);
             this.groupBox3.TabIndex = 12;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "groupBox3";
+            this.groupBox3.Text = "Ejecutivo";
             // 
             // button3
             // 
@@ -396,7 +396,8 @@
             this.groupBox2.Size = new System.Drawing.Size(142, 270);
             this.groupBox2.TabIndex = 11;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Basico";
+            this.groupBox2.Text = "Flex";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // button2
             // 
@@ -536,7 +537,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(812, 459);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label35);

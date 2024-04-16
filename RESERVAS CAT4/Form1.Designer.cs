@@ -44,6 +44,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.cbeleccion = new System.Windows.Forms.ComboBox();
             this.cbeleccion1 = new System.Windows.Forms.ComboBox();
+            this.vf = new System.Windows.Forms.Button();
+            this.vf1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -58,6 +60,7 @@
             this.idavuelta.TabIndex = 2;
             this.idavuelta.Text = "Ida y vuelta";
             this.idavuelta.UseVisualStyleBackColor = true;
+            this.idavuelta.CheckedChanged += new System.EventHandler(this.idavuelta_CheckedChanged);
             // 
             // ida
             // 
@@ -75,6 +78,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(50, 20);
             this.dateTimePicker1.TabIndex = 4;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // dateTimePicker2
             // 
@@ -89,7 +93,7 @@
             this.label1.BackColor = System.Drawing.Color.Red;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(374, 194);
+            this.label1.Location = new System.Drawing.Point(374, 213);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(146, 20);
             this.label1.TabIndex = 10;
@@ -101,7 +105,7 @@
             this.label2.BackColor = System.Drawing.Color.Red;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(367, 229);
+            this.label2.Location = new System.Drawing.Point(375, 243);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(192, 25);
             this.label2.TabIndex = 11;
@@ -113,7 +117,7 @@
             this.label3.BackColor = System.Drawing.Color.Red;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(362, 272);
+            this.label3.Location = new System.Drawing.Point(374, 281);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(222, 33);
             this.label3.TabIndex = 12;
@@ -122,7 +126,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::RESERVAS_CAT4.Properties.Resources.rojo;
-            this.pictureBox3.Location = new System.Drawing.Point(362, 173);
+            this.pictureBox3.Location = new System.Drawing.Point(368, 194);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(319, 132);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -132,7 +136,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::RESERVAS_CAT4.Properties.Resources.playa;
-            this.pictureBox2.Location = new System.Drawing.Point(60, 173);
+            this.pictureBox2.Location = new System.Drawing.Point(60, 194);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(308, 134);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -198,29 +202,46 @@
             this.cbeleccion.FormattingEnabled = true;
             this.cbeleccion.Location = new System.Drawing.Point(50, 129);
             this.cbeleccion.Name = "cbeleccion";
-            this.cbeleccion.Size = new System.Drawing.Size(66, 21);
+            this.cbeleccion.Size = new System.Drawing.Size(80, 21);
             this.cbeleccion.TabIndex = 17;
             this.cbeleccion.SelectedIndexChanged += new System.EventHandler(this.cbeleccion_SelectedIndexChanged);
             // 
             // cbeleccion1
             // 
             this.cbeleccion1.FormattingEnabled = true;
-            this.cbeleccion1.Items.AddRange(new object[] {
-            "Esapaña",
-            "Portugal ",
-            "Polonia",
-            "Alemania"});
             this.cbeleccion1.Location = new System.Drawing.Point(136, 129);
             this.cbeleccion1.Name = "cbeleccion1";
             this.cbeleccion1.Size = new System.Drawing.Size(77, 21);
             this.cbeleccion1.TabIndex = 18;
             this.cbeleccion1.SelectedIndexChanged += new System.EventHandler(this.cbeleccion2_SelectedIndexChanged);
             // 
+            // vf
+            // 
+            this.vf.Location = new System.Drawing.Point(50, 157);
+            this.vf.Name = "vf";
+            this.vf.Size = new System.Drawing.Size(80, 23);
+            this.vf.TabIndex = 19;
+            this.vf.Text = "verificar";
+            this.vf.UseVisualStyleBackColor = true;
+            this.vf.Click += new System.EventHandler(this.vf_Click);
+            // 
+            // vf1
+            // 
+            this.vf1.Location = new System.Drawing.Point(136, 156);
+            this.vf1.Name = "vf1";
+            this.vf1.Size = new System.Drawing.Size(75, 23);
+            this.vf1.TabIndex = 20;
+            this.vf1.Text = "verificar";
+            this.vf1.UseVisualStyleBackColor = true;
+            this.vf1.Click += new System.EventHandler(this.vf1_Click);
+            // 
             // ReservaVuelos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.vf1);
+            this.Controls.Add(this.vf);
             this.Controls.Add(this.cbeleccion1);
             this.Controls.Add(this.cbeleccion);
             this.Controls.Add(this.label5);
@@ -240,6 +261,7 @@
             this.Name = "ReservaVuelos";
             this.Text = "VUELOS CAT4";
             this.TopMost = true;
+            this.Load += new System.EventHandler(this.ReservaVuelos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -265,6 +287,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox cbeleccion;
         private System.Windows.Forms.ComboBox cbeleccion1;
+        private System.Windows.Forms.Button vf;
+        private System.Windows.Forms.Button vf1;
     }
 }
 

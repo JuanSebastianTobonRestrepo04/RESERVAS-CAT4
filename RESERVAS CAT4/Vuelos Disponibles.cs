@@ -47,5 +47,10 @@ namespace RESERVAS_CAT4
             Form Vueloapago = new compratipovuelo();
             Vueloapago.Show();
         }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
